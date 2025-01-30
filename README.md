@@ -4,10 +4,10 @@ Python (Programming Language), Math functions (for trigonometric calculations), 
 Function to calculate distance: def calculate_distance(height, hypotenuse):distance =math.sqrt(hypotenuse2 - height2) return distance. Main program: def main(): choice = input("Do you want to calculate height (h) or distance (d)? ").lower() if choice == 'h': distance = float(input("Enter the distance from the object: ")) hypotenuse = float(input("Enter the length of the hypotenuse: ")) height = calculate_height(distance, hypotenuse) print(f"The height of the object is {height} units.")
 
 elif choice == 'd': height = float(input("Enter the height of the object: ")) hypotenuse = float(input("Enter the length of the hypotenuse: ")) distance = calculate_distance(height, hypotenuse) print(f"The distance from the object is {distance} units.")
-else: print("Invalid choice. 
+else: print("Invalid choice. Please choose 'h' for height or 'd' for distance.")
 
 https://github.com/user-attachments/assets/3a4e132b-93b8-4142-adc0-c2c69312bad2
 
 ![1000003969](https://github.com/user-attachments/assets/0bd517d8-75b7-4155-aeda-d4dc3eec89b9)
 ![1000003989](https://github.com/user-attachments/assets/f7d76f7b-1548-48bd-ba60-799a45f51cc7)
-Please choose 'h' for height or 'd' for distance.")
+
